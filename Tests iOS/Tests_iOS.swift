@@ -30,6 +30,56 @@ class Tests_iOS: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testVolume(){
+            
+            let myVolumeBox = BoundingBox()
+            
+            let dimensions = 5
+            
+            let lowerBound = [0.0, -2.0, 3.0, 4.0, 1.0]
+            let upperBound = lowerBound.map{($0 + 2.0)}
+            
+            myVolumeBox.initWithDimensionsAndRanges(dimensions: dimensions, lowerBound: lowerBound, upperBound: upperBound)
+            
+            XCTAssertEqual(myVolumeBox.volume, pow(2.0, Double(dimensions)), accuracy: 1E-7, "Print does not match" )
+            
+            
+        }
+    
+    func testIntegrationOfEToTheMinusX() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        var testValue = 3.14159
+        
+        let integrator = Integrator(setup: true)
+        
+        let myQueue = DispatchQueue(label:"etotheminusxTest")
+        
+        integrator.exact = -exp(-1.0) + exp(0.0)
+        
+        myQueue.sync{
+            
+            integrator.integration(iterations: 16, guesses: 32000, integrationQueue: myQueue)
+            
+            
+        }
+        
+        myQueue.sync{
+            
+            testValue = integrator.integral
+            
+            print ("The Test \(testValue)")
+            
+        }
+        
+        
+        XCTAssertEqual(testValue, integrator.exact, accuracy: 1.5e-3, "Print it should have been closer.")
+        
+        
+    
+    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {

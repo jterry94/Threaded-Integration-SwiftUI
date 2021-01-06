@@ -15,6 +15,18 @@
 		D232F9C225A2617400EBF162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F99725A2617000EBF162 /* ContentView.swift */; };
 		D232F9C325A2617400EBF162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D232F99825A2617400EBF162 /* Assets.xcassets */; };
 		D232F9C425A2617400EBF162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D232F99825A2617400EBF162 /* Assets.xcassets */; };
+		D232F9D825A26A8300EBF162 /* Integrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9D725A26A8300EBF162 /* Integrator.swift */; };
+		D232F9D925A26A8300EBF162 /* Integrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9D725A26A8300EBF162 /* Integrator.swift */; };
+		D232F9DA25A26A8300EBF162 /* Integrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9D725A26A8300EBF162 /* Integrator.swift */; };
+		D232F9DB25A26A8300EBF162 /* Integrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9D725A26A8300EBF162 /* Integrator.swift */; };
+		D232F9E125A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9E025A29B5D00EBF162 /* ArrayStdDeviation.swift */; };
+		D232F9E225A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9E025A29B5D00EBF162 /* ArrayStdDeviation.swift */; };
+		D232F9E325A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9E025A29B5D00EBF162 /* ArrayStdDeviation.swift */; };
+		D232F9E425A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232F9E025A29B5D00EBF162 /* ArrayStdDeviation.swift */; };
+		D291B32525A5171300616F54 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B32425A5171300616F54 /* BoundingBox.swift */; };
+		D291B32625A5171300616F54 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B32425A5171300616F54 /* BoundingBox.swift */; };
+		D291B33525A5183800616F54 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B32425A5171300616F54 /* BoundingBox.swift */; };
+		D291B33E25A5183900616F54 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B32425A5171300616F54 /* BoundingBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +50,9 @@
 		D232F99625A2617000EBF162 /* Threaded_IntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threaded_IntegrationApp.swift; sourceTree = "<group>"; };
 		D232F99725A2617000EBF162 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D232F99825A2617400EBF162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D232F99D25A2617400EBF162 /* Threaded Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Threaded Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D232F99D25A2617400EBF162 /* Threaded Integration SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Threaded Integration SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D232F9A025A2617400EBF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D232F9A525A2617400EBF162 /* Threaded Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Threaded Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D232F9A525A2617400EBF162 /* Threaded Integration SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Threaded Integration SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D232F9A725A2617400EBF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D232F9A825A2617400EBF162 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		D232F9AD25A2617400EBF162 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +61,9 @@
 		D232F9B825A2617400EBF162 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D232F9BC25A2617400EBF162 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D232F9BE25A2617400EBF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D232F9D725A26A8300EBF162 /* Integrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integrator.swift; sourceTree = "<group>"; };
+		D232F9E025A29B5D00EBF162 /* ArrayStdDeviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStdDeviation.swift; sourceTree = "<group>"; };
+		D291B32425A5171300616F54 /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +113,11 @@
 		D232F99525A2617000EBF162 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D291B32425A5171300616F54 /* BoundingBox.swift */,
 				D232F99625A2617000EBF162 /* Threaded_IntegrationApp.swift */,
 				D232F99725A2617000EBF162 /* ContentView.swift */,
+				D232F9E025A29B5D00EBF162 /* ArrayStdDeviation.swift */,
+				D232F9D725A26A8300EBF162 /* Integrator.swift */,
 				D232F99825A2617400EBF162 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -108,8 +126,8 @@
 		D232F99E25A2617400EBF162 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D232F99D25A2617400EBF162 /* Threaded Integration.app */,
-				D232F9A525A2617400EBF162 /* Threaded Integration.app */,
+				D232F99D25A2617400EBF162 /* Threaded Integration SwiftUI.app */,
+				D232F9A525A2617400EBF162 /* Threaded Integration SwiftUI.app */,
 				D232F9AD25A2617400EBF162 /* Tests iOS.xctest */,
 				D232F9B825A2617400EBF162 /* Tests macOS.xctest */,
 			);
@@ -154,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D232F99C25A2617400EBF162 /* Threaded Integration (iOS) */ = {
+		D232F99C25A2617400EBF162 /* Threaded Integration SwiftUI (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D232F9C725A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration (iOS)" */;
+			buildConfigurationList = D232F9C725A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration SwiftUI (iOS)" */;
 			buildPhases = (
 				D232F99925A2617400EBF162 /* Sources */,
 				D232F99A25A2617400EBF162 /* Frameworks */,
@@ -166,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = "Threaded Integration (iOS)";
+			name = "Threaded Integration SwiftUI (iOS)";
 			productName = "Threaded Integration (iOS)";
-			productReference = D232F99D25A2617400EBF162 /* Threaded Integration.app */;
+			productReference = D232F99D25A2617400EBF162 /* Threaded Integration SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D232F9A425A2617400EBF162 /* Threaded Integration (macOS) */ = {
+		D232F9A425A2617400EBF162 /* Threaded Integration SwiftUI (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D232F9CA25A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration (macOS)" */;
+			buildConfigurationList = D232F9CA25A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration SwiftUI (macOS)" */;
 			buildPhases = (
 				D232F9A125A2617400EBF162 /* Sources */,
 				D232F9A225A2617400EBF162 /* Frameworks */,
@@ -183,9 +201,9 @@
 			);
 			dependencies = (
 			);
-			name = "Threaded Integration (macOS)";
+			name = "Threaded Integration SwiftUI (macOS)";
 			productName = "Threaded Integration (macOS)";
-			productReference = D232F9A525A2617400EBF162 /* Threaded Integration.app */;
+			productReference = D232F9A525A2617400EBF162 /* Threaded Integration SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D232F9AC25A2617400EBF162 /* Tests iOS */ = {
@@ -249,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D232F99425A2617000EBF162 /* Build configuration list for PBXProject "Threaded Integration" */;
+			buildConfigurationList = D232F99425A2617000EBF162 /* Build configuration list for PBXProject "Threaded Integration SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +280,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D232F99C25A2617400EBF162 /* Threaded Integration (iOS) */,
-				D232F9A425A2617400EBF162 /* Threaded Integration (macOS) */,
+				D232F99C25A2617400EBF162 /* Threaded Integration SwiftUI (iOS) */,
+				D232F9A425A2617400EBF162 /* Threaded Integration SwiftUI (macOS) */,
 				D232F9AC25A2617400EBF162 /* Tests iOS */,
 				D232F9B725A2617400EBF162 /* Tests macOS */,
 			);
@@ -308,8 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D291B32525A5171300616F54 /* BoundingBox.swift in Sources */,
 				D232F9C125A2617400EBF162 /* ContentView.swift in Sources */,
 				D232F9BF25A2617400EBF162 /* Threaded_IntegrationApp.swift in Sources */,
+				D232F9D825A26A8300EBF162 /* Integrator.swift in Sources */,
+				D232F9E125A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D291B32625A5171300616F54 /* BoundingBox.swift in Sources */,
 				D232F9C225A2617400EBF162 /* ContentView.swift in Sources */,
 				D232F9C025A2617400EBF162 /* Threaded_IntegrationApp.swift in Sources */,
+				D232F9D925A26A8300EBF162 /* Integrator.swift in Sources */,
+				D232F9E225A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D232F9E325A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */,
+				D232F9DA25A26A8300EBF162 /* Integrator.swift in Sources */,
 				D232F9B225A2617400EBF162 /* Tests_iOS.swift in Sources */,
+				D291B33525A5183800616F54 /* BoundingBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D232F9E425A29B5D00EBF162 /* ArrayStdDeviation.swift in Sources */,
+				D232F9DB25A26A8300EBF162 /* Integrator.swift in Sources */,
 				D232F9BD25A2617400EBF162 /* Tests_macOS.swift in Sources */,
+				D291B33E25A5183900616F54 /* BoundingBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,12 +373,12 @@
 /* Begin PBXTargetDependency section */
 		D232F9AF25A2617400EBF162 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D232F99C25A2617400EBF162 /* Threaded Integration (iOS) */;
+			target = D232F99C25A2617400EBF162 /* Threaded Integration SwiftUI (iOS) */;
 			targetProxy = D232F9AE25A2617400EBF162 /* PBXContainerItemProxy */;
 		};
 		D232F9BA25A2617400EBF162 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D232F9A425A2617400EBF162 /* Threaded Integration (macOS) */;
+			target = D232F9A425A2617400EBF162 /* Threaded Integration SwiftUI (macOS) */;
 			targetProxy = D232F9B925A2617400EBF162 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,8 +509,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration";
-				PRODUCT_NAME = "Threaded Integration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration-SwiftUI";
+				PRODUCT_NAME = "Threaded Integration SwiftUI";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,8 +531,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration";
-				PRODUCT_NAME = "Threaded Integration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration-SwiftUI";
+				PRODUCT_NAME = "Threaded Integration SwiftUI";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,8 +557,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration";
-				PRODUCT_NAME = "Threaded Integration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration-SwiftUI";
+				PRODUCT_NAME = "Threaded Integration SwiftUI";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -551,8 +581,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration";
-				PRODUCT_NAME = "Threaded Integration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiiit.Threaded-Integration-SwiftUI";
+				PRODUCT_NAME = "Threaded Integration SwiftUI";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -650,7 +680,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D232F99425A2617000EBF162 /* Build configuration list for PBXProject "Threaded Integration" */ = {
+		D232F99425A2617000EBF162 /* Build configuration list for PBXProject "Threaded Integration SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D232F9C525A2617400EBF162 /* Debug */,
@@ -659,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D232F9C725A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration (iOS)" */ = {
+		D232F9C725A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration SwiftUI (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D232F9C825A2617400EBF162 /* Debug */,
@@ -668,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D232F9CA25A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration (macOS)" */ = {
+		D232F9CA25A2617400EBF162 /* Build configuration list for PBXNativeTarget "Threaded Integration SwiftUI (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D232F9CB25A2617400EBF162 /* Debug */,
